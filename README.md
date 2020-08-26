@@ -2,7 +2,7 @@
 
 Spring Boot JMS proxy with Karate tests and Gatling performance runner.
 
-&#x1F34E; TODO:  This project isn't working at the moment. I want to refactor it to use Docker ActiveMQ.  But, this project will give you a basic idea of how to structure such a project.
+&#x1F34E; TODO:  This project isn't working at the moment. I want to refactor it to use Docker ActiveMQ.  But, this project will give you a basic idea of how to structure such a project so Karate tests can be run either individually or with Gatling.
 
 ## Execute
 
