@@ -5,7 +5,7 @@ Feature: Example JMS query
 
   @reg
   Scenario: Send a single JMS message
-    Given url 'http://localhost:8080/send'
+    Given url 'http://localhost:8090/send'
     When method get
     Then status 200
 

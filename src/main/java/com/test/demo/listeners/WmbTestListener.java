@@ -1,6 +1,6 @@
-package com.standard.demo.listeners;
+package com.test.demo.listeners;
 
-import com.standard.demo.WmqTestCounters;
+import com.test.demo.WmqTestCounters;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;

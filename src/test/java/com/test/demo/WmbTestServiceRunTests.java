@@ -37,7 +37,7 @@ class WmbTestServiceRunTests {
     private WmqTestController controllerUnderTest;
 
     private static final String ENV = System.getProperty("test.env", "undefined").toUpperCase();
-    private static final String REPORT_TITLE = "wmb-testing-service-api (karate) " + ENV;
+    private static final String REPORT_TITLE = "spring-boot-karate-example (karate) " + ENV;
     private static final String GLOBAL_IGNORE_ALL = "~@ignore";
     private static final String GLOBAL_INCLUDE = "@" + System.getProperty("test.type", "reg").toLowerCase();
 
