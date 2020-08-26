@@ -2,7 +2,7 @@
 
 Spring Boot JMS proxy with Karate tests and Gatling performance runner.
 
-(&#x1F34E;) TODO:  This project isn't working at the moment. I want to refactor it to use Docker ActiveMQ.
+&#x1F34E; TODO:  This project isn't working at the moment. I want to refactor it to use Docker ActiveMQ.
 
 ## Execute
 
