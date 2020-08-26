@@ -1,0 +1,11 @@
+{
+    "int": {
+      "mssql": {"hostname": "test.com", "port": "6008", "username": "test_dev", "database": "TDINT"},
+    },
+    "sys": {
+      "mssql": {"hostname": "test.com", "port": "6008", "username": "test_dev", "database": "TDSYS"},
+    },
+    "acc": {
+      "mssql": {"hostname": "test.com", "port": "6008", "username": "test_acc", "database": "TDACC"},
+    }
+}

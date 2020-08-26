@@ -1,0 +1,27 @@
+
+server:
+  port: 8080
+  
+ibm.mq:
+  hostName: localhost
+  port: 1414
+  queueManager: QM1
+  channel: DEV.ADMIN.SVRCONN
+  username: admin
+  password: passw0rd
+
+  maxAttempts: 8
+  timeout: 120000
+#  cipher: TLS_RSA_WITH_AES_128_GCM_SHA256
+#  useIBMciphermappings: false
+#  mqcspauthenable: true
+#  destination: TEST
+  destination: DEV.QUEUE.1
+
+spring:
+  application:
+    name: spring-boot-karate-example
+
+log:
+  location: logs
+
