@@ -2,6 +2,8 @@
 
 Spring Boot JMS proxy with Karate tests and Gatling performance runner.
 
+TODO:  This project isn't working at the moment. I want to refactor it to use Docker ActiveMQ.
+
 ## Execute
 
 Start the regular unit test, by itself without triggering Gatling performance test.
